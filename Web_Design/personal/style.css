@@ -9,22 +9,27 @@
 7.contact
 
 
+
 /*gerneral*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 *{
     box-sizing:border-box;
     margin:0;
-    padding:0;
+   
     background: url(images/bg2.png);
 
 
+}
+section .container{
+   padding-left:3%;
+   padding-top:1%;
 }
 :root{
     /* Text Color*/
     --primary-color:#4458dc;
     --secondary-color:#854fee;
     --bg--white:#d5edf5;
-    --bg-light:#faf8ff;
+    --bg-light:#d1ebf3;
     --bg-black:#000;
     --bg-grey:#eee;
     --gradiant:linear-gradiant(to right,#4458dc 0%,#854fee 100%),radial-gradiant(circle at top left,#4458dc,#854fee);
@@ -201,6 +206,16 @@ section{
 }
 
 
+.services_wrapper .card,.services_wrapper .card i,.services_wrapper .card a,.services_wrapper .card p{
+   background: #c1dbfd;
+   border: 0;
+}
+.services_wrapper .col-lg-4:hover{
+  
+   box-shadow: 0px 2px 12px 0px #ccc;
+   border:.5px solid transparent;
+}
+
 /* contact */
 .contact_wrapper{
    max-width: 800px;
@@ -216,14 +231,10 @@ box-shadow:0 10px 30px  0px rgba(0,0,0,0.1);
    letter-spacing:3px;
    font-size:3em;
    line-height:48px;
-   padding-bottom:20px;
+   padding:10px;
    color:#120c3b;
    background:linear-gradient(to right,#d5edf5 0%,#9c8dfc 100%);
    -webkit-background-composite :text;
-   
-
-
-
 }
 .contact-form .form-field{
    position:relative;
@@ -261,6 +272,76 @@ box-shadow:0 10px 30px  0px rgba(0,0,0,0.1);
    transition: transform 0.2.s ease-in-out;
    
 }
+.skillset{
+   height:100vh;
+}
+.container_portfolio .contents{
+   padding:0px 10%;
+   border-left:2px solid #dcdaf1
+   }
+   .container_portfolio header.title{
+   padding:0px 0px 20px 30px;
+   }
+   .container_portfolio .contents .box{
+       position:relative;
+       padding:20px;
+       border:1px solid #eaeaea;
+       background-color: #ffffff;
+       cursor:pointer;
+       transition:all .4s;
+       margin-bottom: 20px;
+   }
+   .container_portfolio .box:hover{
+       box-shadow: 0px 3px 12px 0px #ccc;
+       border:1px solid transparent;
+   }
+   .container_portfolio .contents .box::before{
+       content:'';
+       position:absolute;
+       width:16px;
+       height:16px;
+       border-radius:50%;
+       right:111%;
+       top:0;
+       background-color: #6a58da;
+       border:2px solid white;
+   }
+   .container_skills .skillset{
+      width:70%;
+         
+   }
+   .edu_txt{
+      color:rgb(68, 107, 174);
+   }
+   .edu_yr{
+      color:rgb(181, 204, 245);
+   }
+   .card-title{
+      font-weight: 700;
+         }
+  
+   .card li:hover{
+      
+      border:3px solid transparent;
+      background:  #cdecf7;
+   }
+   .about_wrapper .Client-info{
+      padding:1.5625rem 1.875rem;
+      background: var(--bg-light);
+      position: relative;
+      margin-top: 1.5625rem;
+      
+   }
+   .about_wrapper .Client-info::before{
+      content:'';
+      position:absolute;
+      top:-1.5625rem;
+      left:-3.4375rem;
+      background: url('images/client-info.webp');
+      background-repeat: no-repeat;
+      height:10.9375rem;
+      width:10.9375rem;
+   }
 
 
 

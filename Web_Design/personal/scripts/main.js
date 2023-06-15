@@ -2,11 +2,11 @@ let nav=document.querySelector(".navbar");
 window.onscroll=function(){
     if(document.documentElement.scrollTop>20){
         nav.classList.add("header-scrolled");
-        console.log("scrolled");
+        
 
     }else{
         nav.classList.remove("header-scrolled");
-        console.log("removed");
+        
     }
 }
 let navBar=document.querySelectorAll(".nav-link");
@@ -16,4 +16,4 @@ navBar.forEach(function(a){
     a.addEventListener("click",function(){
      navCollapse.classList.remove("show");
     })
-})
+})  
