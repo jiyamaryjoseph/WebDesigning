@@ -1,8 +1,10 @@
 # WebDesigning
-Here i included some of the site I tried to make by using HTML and CSS code.
+
+Here, I've utilized CSS, HTML, JavaScript, and Bootstrap to clone these websites, infusing them with my own modifications and creative touch. This repository serves as a testament to my journey in web development, encompassing all essential files for these static websites.
 
 
 
+Here, I've included the index pages of each website in brief.
 
 
 
@@ -12,4 +14,11 @@ https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/ed4b905d-87d8-42a
 
 https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/5b911fac-2c6a-4653-bdc3-b78c7f44039d
 
+
+![image](https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/4d051849-8aba-4535-bef9-d3f54c8b4c10)
+
+
+
+
+https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/d19c4925-b78d-415b-9ed2-544d51cacd55
 
