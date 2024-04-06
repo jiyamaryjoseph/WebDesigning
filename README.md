@@ -15,7 +15,6 @@ https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/ed4b905d-87d8-42a
 https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/5b911fac-2c6a-4653-bdc3-b78c7f44039d
 
 
-![image](https://github.com/jiyamaryjoseph/WebDesigning/assets/83010684/4d051849-8aba-4535-bef9-d3f54c8b4c10)
 
 
 
